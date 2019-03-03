@@ -1,36 +1,40 @@
 
->>> test 1 using 10 number
-binarySearch: 0.347ms
-linearSearch: 0.129ms
+>>> search 4 in 10 numbers.
+binarySearch: 0.375ms
+linearSearch: 0.160ms
 
->>> test 2 using 50 number
-binarySearch: 0.019ms
-linearSearch: 0.016ms
+>>> search 31 in 50 numbers.
+binarySearch: 0.024ms
+linearSearch: 0.039ms
 
->>> test 3 using 100 number
-binarySearch: 0.015ms
-linearSearch: 0.017ms
+>>> search 3 in 100 numbers.
+binarySearch: 0.017ms
+linearSearch: 0.024ms
 
->>> test 4 using 200 number
-binarySearch: 0.015ms
+>>> search 64 in 200 numbers.
+binarySearch: 0.021ms
 linearSearch: 0.028ms
 
->>> test 5 using 300 number
-binarySearch: 0.030ms
-linearSearch: 0.042ms
+>>> search 73 in 300 numbers.
+binarySearch: 0.020ms
+linearSearch: 0.038ms
 
->>> test 6 using 500 number
-binarySearch: 0.029ms
-linearSearch: 0.057ms
-
->>> test 7 using 999 number
-binarySearch: 0.032ms
-linearSearch: 0.109ms
-
->>> test 8 using 2000 number
-binarySearch: 0.033ms
-linearSearch: 0.206ms
-
->>> test 9 using 10000 number
+>>> search 320 in 500 numbers.
 binarySearch: 0.025ms
+linearSearch: 0.022ms
+
+>>> search 48 in 999 numbers.
+binarySearch: 0.023ms
+linearSearch: 0.108ms
+
+>>> search 1227 in 2000 numbers.
+binarySearch: 0.024ms
+linearSearch: 0.209ms
+
+>>> search 570 in 10000 numbers.
+binarySearch: 0.028ms
 linearSearch: 0.011ms
+
+>>> search 28592 in 100000 numbers.
+binarySearch: 0.019ms
+linearSearch: 0.395ms

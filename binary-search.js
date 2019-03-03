@@ -11,7 +11,7 @@ const binarySearch = (nums, key) => {
   let high = nums.length;
   let itemIdx = -1;
   while(low <= high) {
-    let mid = low + Math.round((high - low)/2);
+    let mid = low + Math.floor((high - low)/2);
 
     if (key === nums[mid]) {
       itemIdx = mid;
