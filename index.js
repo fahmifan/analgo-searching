@@ -8,12 +8,12 @@ function main() {
   const bsLable = 'binarySearch'; 
   const lsLable = 'linearSearch'; 
 
-  let maxArr = [10, 50, 200, 500, 999];
+  let maxArr = [10, 50, 100, 200, 300, 500, 999, 2000, 10000];
   maxArr.forEach((m, idx) => {
-    console.log(`\n>>> test ${idx + 1} using ${m} element`)
+    console.log(`\n>>> test ${idx + 1} using ${m} number`)
     let nums = []; 
     for (let i = 0; i < m; i++) {
-      nums.push(faker.random.number(1000));
+      nums.push(faker.random.number(2000));
     }
   
     // cpnums is sorted array that will use for binary search
